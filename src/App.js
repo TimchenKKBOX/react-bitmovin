@@ -6,9 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        { 
+          //<img src={logo} className="App-logo" alt="logo" />
+        }
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save11 to reload.
         </p>
         <a
           className="App-link"
@@ -19,6 +21,16 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="content">
+        <div className="player-wrapper">
+          <div id="player"></div>
+        </div>
+        <div className="description">
+          <p>For more information about the bitmovin player, please have a look at our online
+          <a href="//bitmovin.com/support" target="_blank">Developer Section</a>.</p>
+        </div>
+      </div>
+
     </div>
   );
 }
